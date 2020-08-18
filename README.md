@@ -1,5 +1,5 @@
 # floof-bot
-A discord bot to assist floor fellows at McGill!
+A discord bot to assist floor fellows in their virtual communities!
 
 # Adding the bot to your server
 Make sure that you have a discord server set up for your students first!
