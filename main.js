@@ -4,13 +4,15 @@ const client = new Discord.Client();
 
 // EDIT THIS TO PERSONALIZE YOUR BOT!
 floof = {
-    name: 'ENTER YOUR NAME',
-    userID: 'ENTER YOUR USER ID',
-    token: 'ENTER YOUR BOT TOKEN',
+    name: 'ENTER YOUR NAME HERE',
+    userID: 'ENTER USER ID HERE',
+    token: 'ENTER YOUR BOT TOKEN HERE',
+    dutyNum: 'ENTER BUILDING DUTY NUMBER HERE',
     location:'',
     locationUpdated:'Never',
-
+    
 }
+
 
 // Loads the command files from the commands directory and stores them in client.commands collection
 const fs = require('fs');
@@ -45,6 +47,9 @@ client.on('message', message => {
     }
     else if(command === 'setloc'){
         client.commands.get('set location').execute(message, args[0], floof)
+    }
+    else if(command === 'duty'){
+        client.commands.get('duty').execute(message, floof)
     }
 });
 
