@@ -37,7 +37,9 @@ Make sure that you have a discord server set up for your students first!
 * Click the copy button to copy the token
 
 # Bring your bot to life!
-This will vary slightly depending on if you're on a windows or mac computer. Either way start by downloading Node from https://nodejs.org/en/ (select the version that says "recommended for most users")
+It should be noted that running the bot on your own computer will only allow the bot to be online when your computer is running... If you'd like to have the bot running 24/7 let me (Doug) know and I can try to help figure something out!
+
+These steps vary slightly depending on if you're on a windows or mac computer. Either way start by downloading Node from https://nodejs.org/en/ (select the version that says "recommended for most users")
 
 <h2> Windows </h2>
 
