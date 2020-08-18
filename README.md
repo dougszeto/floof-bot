@@ -11,10 +11,10 @@ Make sure that you have a discord server set up for your students first!
 
 3. Check off all of the permissions for the bot and then paste the client ID from step 2 into the client ID box
 
-4. Click the link at the very bottom of the screen to add your bot to the discord server of your choice
+4. Click the link at the very bottom of the screen to add your bot to your discord server
 
 # Setting up your bot
-1. Download this repository as a zip file
+1. Download this repository as a zip file (click the green box that says "code" > "download as zip") and save it to your desktop!
 
 2. Extract the contents
 
@@ -36,4 +36,37 @@ Make sure that you have a discord server set up for your students first!
 
 * Click the copy button to copy the token
 
+# Bring your bot to life!
+This will vary slightly depending on if you're on a windows or mac computer. Either way start by downloading Node from https://nodejs.org/en/ (select the version that says "recommended for most users")
 
+<h2> Windows </h2>
+
+1. In file explorer navigate to the main.js file
+
+2. Right click on main.js and select "properties" at the bottom of the menu
+
+3. Copy the file location (under the "general" tab)
+
+4. Open your command prompt
+
+5. Enter in the following: cd PASTE_FILE_LOCATION_HERE
+
+6. Enter in node main.js
+
+7. Congrats your bot should now be online! Careful though, if you close the command prompt the bot will go offline :(
+
+<h2> MacOS </h2>
+
+1. In finder navigate to the <b>floof-bot-master</b> folder
+
+2. ctrl click on the folder and then hold down the option key
+
+3. Select "copy 'floof-bot-master' as Pathname"
+
+4. Open your terminal
+
+5. Enter in the following: cd PASTE_PATH_HERE
+
+6. Enter in node main.js
+
+7. Congrats, your bot should now be online! Careful though, if you close the terminal the bot will go offline :(
