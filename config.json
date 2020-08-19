@@ -1,0 +1,18 @@
+{
+    "bot": {
+        "token": "ENTER YOUR TOKEN HERE",
+        "prefix": "-"
+    },
+
+    "floof": {
+        "name": "ENTER YOUR NAME HERE",
+        "userID": "ENTER YOUR USER ID HERE",
+        "location": "",
+        "locationUpdated": "never" 
+    },
+
+    "building": {
+        "name": "ENTER YOUR BUILDING HERE",
+        "dutyNum": "ENTER DUTY NUMBER HERE"
+    }
+}
