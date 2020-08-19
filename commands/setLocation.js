@@ -1,10 +1,11 @@
 module.exports = {
     name: 'set location',
-    description: "Update the floof's location and mark the time the change was made",
-    execute(message, location, floof){
-        // Find an easy way for the floof to find their ID
+    call: '-setloc [location]',
+    description: "set your floor fellow's location. This command is reserved for floor fellows!",
+    execute(message, args, floof){
         try {
             if(message.author.id === floof.userID){
+                location = args.join(' ');
                 floof.location = location;
                 const today = new Date();
                 const date = `${today.getDate()}/${today.getMonth()}/${today.getFullYear()}`;
@@ -16,7 +17,7 @@ module.exports = {
             }
     
         } catch(e){
-            message.channel.send('There was an issue validating your ID!')
+            message.channel.send('There was an issue validating your ID!');
         }
 
     }
