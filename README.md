@@ -1,6 +1,15 @@
 # floof-bot
 A discord bot to assist floor fellows in their virtual communities!
 
+# Commands
+|Command                        |Description                                                                                                                          |
+|---------                      |-------------------------------------------------------------------------------------------------------------------------------------|
+|-duty                          |Provide students with your building's duty number and hours                                                                          |
+|-where                         |Provide students with your location and when it was last updated                                                                     |
+|-setloc [location with spaces] |Set your location with the input provided (note: you do not need to type the square brackets). This command is only available to you!|
+|@bot-username                  |When someone mentions your bot, it will provide them with a list of available commands                                               |
+
+
 # Adding the bot to your server
 Make sure that you have a discord server set up for your students first!
 1. Go to https://discord.com/developers/applications and create a new application (name it whatever you want)
