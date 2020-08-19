@@ -20,13 +20,13 @@ Make sure that you have a discord server set up for your students first!
 
 3. Open config.json in any text editor
 
-4. Fill in the appropriate information <b>Make sure to keep the quotation marks!</b>. For instructions on how to find your user ID see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
+4. Fill in the appropriate information <b>ake sure to keep the quotation marks!</b> For instructions on how to find your user ID see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
 
 5. Replace ENTER YOUR TOKEN with your bot's token. To obtain the bot token do the following:
 
 * Go back to the discord developers page (https://discord.com/developers/applications)
 
-* Enter your app and go to the bot tab on the left
+* Click on your app and go to the bot tab on the left
 
 * Under the username box is a section labeled TOKEN
 
