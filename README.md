@@ -18,15 +18,11 @@ Make sure that you have a discord server set up for your students first!
 
 2. Extract the contents
 
-3. Open main.js in any text editor
+3. Open config.json in any text editor
 
-4. Towards the top of the file you will see a line that says // EDIT THIS TO PERSONALIZE YOUR BOT
+4. Fill in the appropriate information <b>Make sure to keep the quotation marks!</b>. For instructions on how to find your user ID see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
 
-5. Replace ENTER YOUR NAME with your own name. <b>make sure to keep the single quotes!</b>
-
-6. Replace ENTER YOUR USER ID with your own userID (see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) <b>Again, keep the signle quotes!!</b>
-
-7. Replace ENTER YOUR TOKEN with your bot's token <b>please keep the single quotes!!!</b>. To obtain the bot token do the following:
+5. Replace ENTER YOUR TOKEN with your bot's token. To obtain the bot token do the following:
 
 * Go back to the discord developers page (https://discord.com/developers/applications)
 
