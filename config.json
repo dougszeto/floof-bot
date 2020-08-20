@@ -6,7 +6,7 @@
 
     "floof": {
         "name": "ENTER FIRST NAME HERE",
-        "userID": "",
+        "userID": "ENTER USER ID HERE",
         "location": "",
         "locationUpdated": "never" 
     },
