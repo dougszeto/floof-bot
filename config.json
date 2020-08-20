@@ -1,6 +1,6 @@
 {
     "bot": {
-        "token": "ENTER YOUR TOKEN HERE",
+        "token": "ENTER BOT TOKEN HERE",
         "prefix": "-"
     },
 
@@ -13,6 +13,8 @@
 
     "building": {
         "name": "ENTER YOUR BUILDING HERE",
-        "dutyNum": "ENTER DUTY NUMBER HERE"
+        "dutyNum": "ENTER DUTY NUMBER HERE",
+        "dutyHours":"7pm-11pm",
+        "onDuty":""
     }
 }

@@ -46,10 +46,13 @@ client.on('message', message => {
         client.commands.get('where').execute(message, floof);
     }
     else if(command === 'setloc'){
-        client.commands.get('set location').execute(message, args, floof)
+        client.commands.get('set location').execute(message, args, floof);
     }
     else if(command === 'duty'){
-        client.commands.get('duty').execute(message, building)
+        client.commands.get('duty').execute(message, building);
+    }
+    else if(command === 'setduty'){
+        client.commands.get('set duty').execute(message, args, floof, building);
     }
 });
 
