@@ -4,12 +4,18 @@ A discord bot to assist floor fellows in their virtual communities!
 floof-bot was originally created as a means to digitize the dorm classic "Where am i?" boards during a time when students may spend more time online than in the hall, however floof-bot has lots of room to grow. Future functionality may include event reminders, mini-games, and more!
 
 # Commands
+[] = require parameter
+
+() = optional parameter
+
+You should not type in the brackets when passing in any parameter!
 |Command                        |Description                                                                                                                          |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|-duty                          |Provide students with your building's duty number and hours                                                                          |
-|-where                         |Provide students with your location and when it was last updated                                                                     |
-|-setloc [location with spaces] |Set your location with the input provided (note: you should not type the square brackets). This command is only available to you!    |
-|@bot-username                  |When someone mentions your bot, it will provide them with a list of available commands                                               |
+|-duty                          |Provide students with the cutie on duty, duty number, duty hours and when this information was last updated.                         |
+|-where                         |Provide students with your location and when it was last updated.                                                                     |
+|-setloc [location with spaces] |Set your location with the input provided. This command is only available to you!                                                    |
+|-setduty [name] (hours-without-spaces)|Set the cutie on duty and change the duty hours. This command is only available to you!                                       |
+|@bot-username                  |When someone mentions your bot, it will provide them with a list of available commands.                                               |
 
 
 # Adding the bot to your server
