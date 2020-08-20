@@ -5,8 +5,8 @@
     },
 
     "floof": {
-        "name": "ENTER YOUR NAME HERE",
-        "userID": "ENTER YOUR USER ID HERE",
+        "name": "ENTER FIRST NAME HERE",
+        "userID": "",
         "location": "",
         "locationUpdated": "never" 
     },
@@ -15,6 +15,7 @@
         "name": "ENTER YOUR BUILDING HERE",
         "dutyNum": "ENTER DUTY NUMBER HERE",
         "dutyHours":"7pm-11pm",
-        "onDuty":""
+        "onDuty":"",
+        "dutyUpdated":"never"
     }
 }
