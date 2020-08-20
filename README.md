@@ -4,7 +4,7 @@ A discord bot to assist floor fellows in their virtual communities!
 floof-bot was originally created as a means to digitize the dorm classic "Where am i?" boards during a time when students may spend more time online than in the hall, however floof-bot has lots of room to grow. Future functionality may include event reminders, mini-games, and more!
 
 # Commands
-[] = require parameter
+[] = required parameter
 
 () = optional parameter
 
@@ -26,7 +26,7 @@ Make sure that you have a discord server set up for your students first!
 
 2. Under the general information tab, copy the client ID and in a <strong>new tab</strong> open https://discordapi.com/permissions.html
 
-3. Check off all of the permissions for the bot and then paste the client ID from step 2 into the client ID box
+3. Check off all of the permissions for the bot and then paste the client ID from step 3 into the client ID box
 
 4. Click the link at the very bottom of the screen to add your bot to your discord server
 
@@ -37,9 +37,11 @@ Make sure that you have a discord server set up for your students first!
 
 3. Open config.json in any text editor
 
-4. Fill in the appropriate information <b>make sure to keep the quotation marks!</b> For instructions on how to find your user ID see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
+4. Fill in the appropriate information <b>make sure to keep the quotation marks!</b> To see how to find your user ID and bot token see below.
 
-5. Replace ENTER YOUR TOKEN with your bot's token. To obtain the bot token do the following:
+User ID: https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
+
+Bot token instructions:
 
 * Go back to the discord developers page (https://discord.com/developers/applications)
 
