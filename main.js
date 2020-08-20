@@ -25,6 +25,7 @@ for (const file of commandFiles){
 // Prints when the bot is online
 client.once('ready', () => {
     console.log(`${floof.name}'s Bot is online!`);
+    client.user.setActivity(`@${client.user.username} for help!`);
 });
 
 
